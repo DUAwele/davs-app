@@ -12,7 +12,7 @@ function Addcars({ onAdd }) {
     navigate("/");
   }
 
-  return <CRSform initialData={{ brand: "", year: "", color: "" }} onSubmit={handleAdd} />;
+  return <CRSform initialData={{ brand: "", year: "", color: "", status: false }} onSubmit={handleAdd} />;
 }
 
 export default Addcars;

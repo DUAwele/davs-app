@@ -9,7 +9,7 @@ function Editcrs({cars, onupdate})
 
     const car = cars.find((i) => i.id === parseInt(id));
 
-    if(!car) return <p> student not found</p>
+    if(!car) return <p>huh no car?</p>
 
     function handleupdate(updatecar)
     {
