@@ -9,7 +9,8 @@ function Layout({children})
             <nav>
                 <Link className="btn btn-warning me-2 fst-italic" to="/"> Home </Link>
                 <Link className="btn btn-warning me-2 fst-italic" to="/add"> Add New Cars </Link>
-                <Link className="btn btn-warning fst-italic" to="/C">Contact</Link>
+                <Link className="btn btn-warning me-2 fst-italic" to="/C">Contact</Link>
+                <Link className="btn btn-warning fst-italic" to="/S">Shows</Link>
             </nav>
             {children}
          </div>   
