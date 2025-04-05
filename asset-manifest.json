@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/davs-app/static/css/main.075e85b2.css",
-    "main.js": "/davs-app/static/js/main.8ad0429c.js",
+    "main.js": "/davs-app/static/js/main.8a042c07.js",
     "static/js/453.860b95e4.chunk.js": "/davs-app/static/js/453.860b95e4.chunk.js",
     "index.html": "/davs-app/index.html",
     "main.075e85b2.css.map": "/davs-app/static/css/main.075e85b2.css.map",
-    "main.8ad0429c.js.map": "/davs-app/static/js/main.8ad0429c.js.map",
+    "main.8a042c07.js.map": "/davs-app/static/js/main.8a042c07.js.map",
     "453.860b95e4.chunk.js.map": "/davs-app/static/js/453.860b95e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.075e85b2.css",
-    "static/js/main.8ad0429c.js"
+    "static/js/main.8a042c07.js"
   ]
 }
