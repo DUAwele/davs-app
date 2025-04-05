@@ -3,7 +3,8 @@ import "./Contact.css"
 
 function Contact()
 {
-    function handleC(){
+    function handleC(event){
+        event.preventDefault()
       alert('Thanks for the feedback')
     }
     return(
