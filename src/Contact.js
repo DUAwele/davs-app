@@ -2,8 +2,11 @@ import React from "react";
 
 function Contact()
 {
+    function handleC(){
+      alert('Thanks for the feedback')
+    }
     return(
-    <form className="bg-danger bg-gradient text-light fst-italic">
+    <form className="bg-danger bg-gradient text-light fst-italic" onSubmit={handleC}>
         <div className="mb-3">
             <label className="form-label">First Name</label>
             <input

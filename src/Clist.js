@@ -13,7 +13,7 @@ function Clist({cars, onDelete})
   
     return (
       <div>
-        <div className='mb-2'>
+        <div className='mt-2'>
           <select className="form-select" onChange={(e) => setFilterStatus(e.target.value)}>
             <option value="All">All</option>
             <option value="Completed">completed</option>
