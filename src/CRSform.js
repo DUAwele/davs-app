@@ -19,7 +19,7 @@ function CRSform({ initialData , onSubmit})
        setFormData({...formData , status: !formData.status})
     }
     return (
-        <form onSubmit={handleSubmit} className="bg-danger bg-grdient">
+        <form onSubmit={handleSubmit} className="bg-danger bg-gradient text-light">
           <div className="mb-3">
             <label className="form-label">Brand</label>
             <input
