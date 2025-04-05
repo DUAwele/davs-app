@@ -17,6 +17,7 @@ const initialState = {
     {id : 2, brand: "BMW" , year: 2019 , color: "White", status: true},
     {id : 3, brand: "Mercedes-Benz(Brabus)" , year: 2021 , color: "Purple", status: false},
     {id : 4, brand: "Porsche" , year: 2025 , color: "Black", status: false},
+    {id : 5, brand: "Lamboghini" , year: 2017 , color: "Brown", status: false}
   ]
 };
 
@@ -78,6 +79,8 @@ function App() {
             </Routes>
         </Layout>
     </Router>
+
+    
   );
 }
 
