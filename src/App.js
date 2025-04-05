@@ -7,6 +7,7 @@ import Addcars from './Addcars';
 import Clist from './Clist';
 import Editcrs from './Editcrs';
 import Contact from './Contact';
+import Shows from './Shows';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
@@ -67,6 +68,8 @@ function App() {
                <Route path="/add" element={ <Addcars onAdd={addcar} /> }    />
 
                <Route path="/C" element={ <Contact/>}/>
+
+               <Route path="/S" element={<Shows/>}/>
                
                <Route path="/edit/:id" element={ <Editcrs cars={cars} onupdate={updateCars} /> } />
             </Routes>
