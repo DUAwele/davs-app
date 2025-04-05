@@ -31,6 +31,15 @@ function Contact()
             required
             />
         </div>
+        <div className="mb-3">
+            <label className="form-label">Comments</label>
+            <input
+            type="text"
+            name="Comments"
+            className="form-control"
+            required
+            />
+        </div>
         <button type="submit" className="btn btn-warning">Submit</button>
     </form>
 
