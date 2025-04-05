@@ -8,7 +8,8 @@ function Layout({children})
             <h3 className="text-center mb-4 bg-danger bg-gradient fst-italic">DAV CAR WASH</h3>
             <nav>
                 <Link className="btn btn-warning me-2 fst-italic" to="/"> Home </Link>
-                <Link className="btn btn-warning fst-italic" to="/add"> Add New Cars </Link>
+                <Link className="btn btn-warning me-2 fst-italic" to="/add"> Add New Cars </Link>
+                <Link className="btn btn-warning fst-italic" to="/C">Contact</Link>
             </nav>
             {children}
          </div>   

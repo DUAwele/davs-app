@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Addcars from './Addcars';
 import Clist from './Clist';
 import Editcrs from './Editcrs';
+import Contact from './Contact';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
@@ -64,6 +65,8 @@ function App() {
                <Route path="/" element={ <Clist cars={cars} onDelete={deletecars} /> }    />
 
                <Route path="/add" element={ <Addcars onAdd={addcar} /> }    />
+
+               <Route path="/C" element={ <Contact/>}/>
                
                <Route path="/edit/:id" element={ <Editcrs cars={cars} onupdate={updateCars} /> } />
             </Routes>
