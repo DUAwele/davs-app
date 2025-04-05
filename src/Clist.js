@@ -49,7 +49,7 @@ function Clist({cars, onDelete})
           </table>
         </div>
         <img width="400" style={{paddingLeft: 200}} 
-        src="https://pnghq.com/wp-content/uploads/2023/02/red-car-wash-png-7968-768x539.png"></img>
+        src="https://getdrawings.com/vectors/car-wash-logo-vector-25.png"></img>
         </div>
       );
 }
