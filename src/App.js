@@ -16,6 +16,7 @@ const initialState = {
     {id : 1, brand: "Mercedes-Benz" , year: 2014 , color: "Black", status: true},
     {id : 2, brand: "BMW" , year: 2019 , color: "White", status: true},
     {id : 3, brand: "Mercedes-Benz(Brabus)" , year: 2021 , color: "Purple", status: false},
+    {id : 4, brand: "Porsche" , year: 2025 , color: "Black", status: false},
   ]
 };
 
