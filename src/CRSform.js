@@ -60,7 +60,7 @@ function CRSform({ initialData , onSubmit})
               />
               <label className="form-check-label">Completed </label>
           </div>
-          <button type="submit" className="btn btn-primary">Save</button>
+          <button type="submit" className="btn btn-warning">Save</button>
         </form>
       );
 }
