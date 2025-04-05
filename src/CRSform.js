@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './CRSform.css'
 
 function CRSform({ initialData , onSubmit})
 {
@@ -19,7 +20,7 @@ function CRSform({ initialData , onSubmit})
        setFormData({...formData , status: !formData.status})
     }
     return (
-        <form onSubmit={handleSubmit} className="bg-danger bg-gradient text-light">
+        <form onSubmit={handleSubmit} className="bg-gradient text-dark crst mt-4">
           <div className="mb-3">
             <label className="form-label">Brand</label>
             <input
@@ -60,7 +61,7 @@ function CRSform({ initialData , onSubmit})
               />
               <label className="form-check-label">Completed </label>
           </div>
-          <button type="submit" className="btn btn-warning">Save</button>
+          <button type="submit" className="btn btn-warning savebutton">Save</button>
         </form>
       );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css"
 
 function Contact()
 {
@@ -6,7 +7,7 @@ function Contact()
       alert('Thanks for the feedback')
     }
     return(
-    <form className="bg-danger bg-gradient text-light fst-italic" onSubmit={handleC}>
+    <form className="bg-gradient text-dark fst-italic ConC mt-4" onSubmit={handleC}>
         <div className="mb-3">
             <label className="form-label">First Name</label>
             <input
@@ -43,7 +44,7 @@ function Contact()
             required
             />
         </div>
-        <button type="submit" className="btn btn-warning">Submit</button>
+        <button type="submit" className="btn btn-warning Subb">Submit</button>
     </form>
 
 );
